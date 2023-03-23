@@ -1,0 +1,15 @@
+{
+  "name": "amberstudent",
+  "version": "1.0.0",
+  "description": "amber std scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pranav kavitkar",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.8.1",
+    "cypress-mailosaur": "^2.13.0"
+  }
+}
