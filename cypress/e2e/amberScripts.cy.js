@@ -1,8 +1,7 @@
 describe('Amber Student Automation Scripts', () => {
   const serverId = 'ztdzhxnw'; 
   const testEmail = `something2@${serverId}.mailosaur.net`
-
-
+  
   it('Regression Task for https://amberstudent.com/', () => {
     cy.visit('https://amberstudent.com/')
     cy.get('#main-search').type('London').wait(2000).type('{enter}')
